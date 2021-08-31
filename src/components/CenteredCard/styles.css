@@ -1,0 +1,22 @@
+.container {
+  margin: 1rem;
+  padding: 5px;
+
+  width: 200px;
+  height: 200px;
+
+  background-color: #3a1772;
+  border-radius: 10px;
+  border: whitesmoke solid 1px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.container:hover {
+  filter: brightness(0.8);
+}
